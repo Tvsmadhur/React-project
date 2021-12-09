@@ -1,6 +1,7 @@
 import React from 'react'
 import Navreusable from './Navreusable'
 import './Styles.css'
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 function Header()
 {
     return (
@@ -9,14 +10,13 @@ function Header()
                 <h1>📘 The Code Magazine</h1>
 
                 <nav>
-                    <Navreusable href='blog.html' title="Blog" />
-                    {/* <a href="blog.html">Blog</a> */}
-                    <Navreusable href='#' title='Challenges' />
-                    {/* <a href="#">Challenges</a> */}
-                    <Navreusable href='flexbox.html' title='Flexbox' />
-                    {/* <a href="flexbox.html">Flexbox</a> */}
-                    <Navreusable href='css-grid.html' title='CSS Grid' />
-                    {/* <a href="css-grid.html">CSS Grid</a> */}
+                    <Link to='/'  >Blog</Link>
+
+                    <Link to='challenges'>Challenges</Link>
+
+                    <Link to='flexbox'  >Flexbox</Link>
+
+                    <Link to='grid'  >CSS Grid</Link>
                 </nav>
 
 

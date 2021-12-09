@@ -26,6 +26,7 @@
     /* padding: 20px;
     padding-left: 40px;
     padding-right: 40px; */
+   
     padding: 20px 40px;
     /* margin-bottom: 60px; */
     /* height: 80px; */
@@ -50,6 +51,7 @@
     border-top: 5px solid #1098ad;
     border-bottom: 5px solid #1098ad;
     padding: 50px 40px;
+   
   }
   
   /* SMALLER ELEMENTS */
@@ -160,7 +162,9 @@
   article p:first-child {
     color: red;
   }
-  
+  .header-control{
+    margin-left:10px 10px;
+  }
   /* Styling links */
   a:link {
     color: #1098ad;

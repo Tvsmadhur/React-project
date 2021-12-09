@@ -10,9 +10,9 @@ function Sidebar()
                 <h4>Related posts</h4>
 
                 <ul className="related">
-                    <Sidebarreusable src='./img/related-1.jpg' title='How to Learn Web Development' author='By Jonas Schmedtmann' />
-                    <Sidebarreusable src='./img/related-2.jpg' title='The Unknown Powers of CSS' author='By Jim Dillon' />
-                    <Sidebarreusable src='./img/related-3.jpg' title='Why JavaScript is Awesome' author='By Matilda' />
+                    <Sidebarreusable href='web' src='./img/related-1.jpg' title='How to Learn Web Development' author='By Jonas Schmedtmann' />
+                    <Sidebarreusable href='css' src='./img/related-2.jpg' title='The Unknown Powers of CSS' author='By Jim Dillon' />
+                    <Sidebarreusable href='js' src='./img/related-3.jpg' title='Why JavaScript is Awesome' author='By Matilda' />
                     {/* <li className="related-post">
                         <img
                             src="./img/related-1.jpg"

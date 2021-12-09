@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 function Sidebarreusable(props)
 {
     return (
@@ -12,7 +12,7 @@ function Sidebarreusable(props)
                     height="75"
                 />
                 <div>
-                    <a href="#" className="related-link">{props.title}</a>
+                    <Link to={`/${props.href}`} className="related-link">{props.title}</Link>
                     <p className="related-author">{props.author}</p>
                 </div>
             </li>
